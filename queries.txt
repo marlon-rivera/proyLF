@@ -1,0 +1,18 @@
+Seleccionar todos los registros de MASCOTAS
+Seleccionar los nombre_mascotas de MASCOTAS
+Recuperar los registros que tengan nombre_mascotas diferentes de MASCOTAS
+Obtener todos las PETS donde el nombre_mascota sea igual a "JUAN"
+Recupere todos las MASCOTAS donde el id_mascota sea menor que 2
+Recupere todos las MASCOTAS donde el id_mascota sea mayor que 2
+Obtenga todos las MASCOTAS donde el id_mascota sea igual que "hola"
+Seleccione todos las MASCOTAS donde el id_mascota sea mayor o igual a 2
+Seleccione todos las MASCOTAS donde el id_mascota sea menor o igual a 2
+Recupera el nombre_mascota y el sexo_mascota de MASCOTAS
+Eliminar los registros de MASCOTAS donde el nombre_mascota sea igual a "LUNA"
+Borrar todos los registros de MASCOTAS
+Insertar en MASCOTAS el nombre_mascota "Diome" con especie_mascota "Perro" con edad_mascota 15 con color_mascota "Blanco" y dueno_mascota "Juan"
+Actualizar MASCOTAS cambiar el nombre_mascota a "Pipe" donde el id_mascota sea igual a 5
+Insertar en DUENOS el nombre_dueno "Marlon"
+Unir DUENOS con MASCOTAS por id_dueno
+Ordenar por nombre_mascota ascendentemente las MASCOTAS
+Ordenar por nombre_mascota descendentemente las MASCOTAS

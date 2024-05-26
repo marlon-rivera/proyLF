@@ -1,0 +1,18 @@
+SELECT * FROM MASCOTAS;
+SELECT nombre_mascotas FROM MASCOTAS;
+SELECT DISTINCT nombre_mascotas FROM MASCOTAS;
+SELECT * FROM PETS WHERE nombre_mascota = "JUAN";
+SELECT * FROM MASCOTAS WHERE id_mascota < 2;
+SELECT * FROM MASCOTAS WHERE id_mascota > 2
+SELECT * FROM MASCOTAS WHERE id_mascota = "hola";
+SELECT * FROM MASCOTAS WHERE id_mascota >= 2;
+SELECT * FROM MASCOTAS WHERE id_mascota <= 2;
+SELECT nombre_mascota, sexo_mascota FROM MASCOTAS;
+DELETE FROM MASCOTAS WHERE nombre_mascota = "LUNA";
+DELETE FROM MASCOTAS;
+INSERT INTO MASCOTAS(nombre_mascota, especie_mascota, edad_mascota, color_mascota, dueno_mascota) VALUES("Diome", "Perro", 15, "Blanco", "Juan");
+UPDATE MASCOTAS SET nombre_mascota = "Pipe" WHERE id_mascota = 5;
+INSERT INTO DUENOS(nombre_dueno) VALUES ("Marlon");
+SELECT * FROM DUENOS INNER JOIN MASCOTAS WHERE DUENOS.id_dueno = MASCOTAS.id_dueno;
+SELECT * FROM MASCOTAS ORDER BY nombre_mascota ASC;
+SELECT * FROM MASCOTAS ORDER BY nombre_mascota DESC;
